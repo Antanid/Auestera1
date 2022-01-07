@@ -1,0 +1,531 @@
+body{
+    margin: 0px -12px;
+    font-family: 'Lato', sans-serif;
+    overflow-x:hidden
+}
+header{
+    height: 967px;
+    background-image: url(../img/back-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+header div.menu{
+    background: rgba(0, 0, 0, 0.407);
+    height: 135px;
+}
+header div.menu a.logo img{
+    padding: 50px 95px 55px 100px;
+    display: block;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 50px 95px 55px 100px;
+}
+header nav ul li a{
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: underline #2785ac;
+    color: #2785ac;
+    font-weight: bold;
+}
+header div.call-to h1{
+    color: white;
+    margin-top: 290px;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+header div.call-to h1 span{
+    color: #2785ac;
+    font-size: 72px;
+}
+
+header div.call-to p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+header div.call-to a.learn-more{
+    display: block;
+    background-color: #2785ac;
+    text-decoration: none;
+    width: 211px;
+    height: 55px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/***************Our-services****************************************************************************/
+
+section.our-service h2{
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 80px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 80px;
+}
+section.our-service div.serv div{
+    padding-top: 80px;
+}
+div.serv div img{
+    padding-bottom: 20px;
+    display: block;
+}
+div.serv div h3{
+    font-size: 24px;
+    color: #242424;
+    font-weight: bold;
+    max-width: 300px;
+}
+div.serv div p{
+    font-size: 16px;
+    color: #878787;
+    padding-right: 30px;
+    line-height: 24px;
+}
+div.serv a.buttom{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 45px;
+    width: 150px;
+    background-color: #2ebaee;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    margin: 60px auto;
+}
+div.serv a.buttom:hover{
+    color: #2ebaee;
+    border: 1px solid #2ebaee;
+    border-bottom: solid 1px #2ebaee;
+    background: rgb(255, 255, 255);
+}
+div.serv div.basd h3{
+    font-size: 36px;
+    margin-top: 90px;
+    color: #242424;
+}
+div.serv div.basd p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #878787;
+    margin-bottom: 50px;
+    max-width: 520px;
+}
+div.basd div.serv-2 a{
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    height: 45px;
+    background: #2ebaee;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -7px;
+}
+div.basd div.serv-2 a:hover{
+    color: #2ebaee;
+    border: 1px solid #2ebaee;
+    border-bottom: solid 1px #2ebaee;
+    background: rgb(255, 255, 255);
+}
+div.serv3 div.serv-4{
+    margin-top: 240px;
+    padding-right: 150px;
+    width: 500px;
+    margin-left: 130px;
+    
+}
+div.desk img{
+    display: block;
+    margin-top: 200px;
+}
+div.serv3 div.serv-4 h3{
+    font-size: 36px;
+    color: white; 
+}
+div.serv3 div.serv-4 p{
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 50px;
+    color: white;
+}
+div.serv3 div.serv-4 a.showw{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: #2ebaee;
+    background: rgb(11, 12, 12);
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    
+}
+div.serv3 div.serv-4 a.showw:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: solid 1px #ffffff;
+    background: #2ebaee;
+}
+div.backgr{
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+}
+
+
+
+
+
+/******************************************************************************************SectionMan************/
+
+section.man{
+display: flex;
+height: 660px;
+} 
+
+section.man div.textt1 h3{
+    font-size: 72px;
+    margin-left: 63px;
+    margin-top: 134px;
+    width: 520px;
+    color: black;
+}
+section.man div.textt1 p{
+    font-size: 14px;
+    margin-left: 63px;
+    margin-top: 90px;
+    width: 520px;
+    color: black;
+    line-height: 30px;
+}
+section.man div a.manLearn{
+    display: inline-block;
+    background-color: #2ebaee;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 63px;
+    margin-top: 70px;
+}
+section.man div a.manLearn:hover{
+    color: #2ebaee;
+    border: 1px solid #2ebaee;
+    border-bottom: solid 1px #2ebaee;
+    background: rgb(255, 255, 255);
+}
+section.nextman{
+display: inline-block;
+float: none;
+}
+
+
+/******************************************************************************************SectionNextMan************/
+section.next-man div.fon1{ 
+background-image: url(../img/fon1.png);
+min-height: 430px;
+background-size: 500px 430px;
+background-repeat: no-repeat;
+background-position:center center;
+padding: 0;
+}
+section.next-man div.fon2{
+ min-height: 430px;
+ background-image: url(../img/fon2.png);
+min-height: 430px;
+background-size: 500px 430px;
+background-repeat: no-repeat;
+background-position:center center ;   
+padding: 0;
+}
+section.next-man div.fon3{
+  min-height: 430px; 
+  background-image: url(../img/fon3.png);
+min-height: 430px;
+background-size: 500px 430px;
+background-repeat: no-repeat;
+background-position:center center ; 
+padding: 0;
+}
+section.next-man div.fon4{
+  min-height: 430px;
+  background-image: url(../img/fon4.png);
+min-height: 430px;
+background-size: 500px 430px;
+background-repeat: no-repeat;
+background-position:center center ;
+padding: 0;
+}
+section.next-man h4{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+section.next-man h4:hover{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(55, 159, 196, 0.8);
+    margin: 0;
+}
+
+/******************************************************************************************4Man************-********************************************************************************************/
+
+section.CheckUS{
+    height: 800px;
+} 
+section.CheckUS div h2{
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+section.CheckUS h2 span{
+    color: #2ebaee;
+}
+
+section.CheckUS img{
+    display: block;
+    margin: 0 auto;
+    width: 234px;
+    height: 234px;
+}
+
+section.CheckUS div.name{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+section.CheckUS div.Awecome span{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+section.CheckUS div.Awecome a{
+    display: block;
+    background-color: #2ebaee;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px auto;
+}
+section.CheckUS div.Awecome a:hover{
+    color: #2ebaee;
+    border: 1px solid #2ebaee;
+    border-bottom: solid 1px #2ebaee;
+    background: rgb(255, 255, 255);
+}
+
+
+/******************************************************************************************Footer************-********************************************************************************************/
+section.footer{
+    background-image: url(../img/fon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 720px;
+}
+
+section.footer div.contact1{
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 130px;
+}
+
+section.footer div h6{
+    font-size: 18px;
+    color: #878787;
+}
+
+section.footer div p{
+    font-size: 30px;
+    color: #878787;
+}
+ 
+section.footer div p span{
+    color: #2ebaee;
+    padding-left: 5px;
+}
+
+section.footer ul{
+    margin-left: -55px;
+}
+section.footer ul li{
+    display: flex;
+    float: left;
+    padding: 0px 10px; 
+    text-align: center;
+    line-height: 60px;
+}
+
+section.footer ul li a.twit{
+    background: #55acee;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+}
+section.footer ul li a.facebook{
+    background: #3b5998;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+}
+
+section.footer ul li a.p{
+    background: #cc2127;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+}
+
+section.footer ul li a.google{
+    background: #dd4b39;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+}
+
+section.footer ul li a.mail{
+    background: #e23047;
+    height: 55px;
+    width: 55px;
+    border-radius: 60px;
+}
+
+section.footer ul li:hover{
+    background: rgba(130, 130, 130, 0.6);
+    cursor: pointer;
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+}
+
+
+section.footer input[type="text"], section.footer input[type="email"]{
+    width: 635px;
+    height: 60px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #535353;
+    color: white;
+    font-size: 17px;
+    display: block;
+    padding-left: 30px;
+    margin: 20px auto;
+}
+section.footer input[type="text"]{
+    margin-top: 175px;
+}
+section.footer textarea{
+    display: block;
+    width: 665px;
+    height: 200px;
+    background: none;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-left: 26px;
+    resize: none;
+}
+
+section.footer button{
+    display: block;
+    background-color: #2ebaee;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+section.footer button:hover{
+    color: #2ebaee;
+    background: rgb(255, 255, 255);
+}
+
+footer{
+    height: 140px;
+    background: #000000;
+}
+
+footer ul {
+    display: flex;
+    float: left;
+    margin: 60px auto;
+    list-style-type: none;
+    color: white;
+    margin-left: 180px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+footer ul li a:hover{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+footer p{
+    display: inline-block;
+    margin: 60px auto;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
